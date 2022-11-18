@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin:0%;
+    padding:0%;
+    }
+
+@font-face {
+    font-family: 'Abel';
+    src: url('./fuentes/Abel.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: 'Antonio';
+    src: url('./fuentes/Antonio.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fuentes/Montserrat.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    }
+
+body {
+    display: flex;
+    font-family: Abel;
+    width: 65vw;
+    font-size: 18px;
+    height: 200vh;
+}
+
+h1 {
+    color: #3C70AE;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.columna1{
+    background-color: #F5F2F2;
+    padding: 6vh 2vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 22vw;
+}
+
+.columna2{
+    left: 25vw;
+    background-color: rgb(254, 254, 254);
+    padding: 2vh 2.5vw;
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 43vw;
+}
+
+#nombre {
+    text-align: center;
+}
+
+#nombre img{
+    height: 35vh;
+    border-radius: 180px;
+    border: #3C70AE solid 2px;
+    box-shadow: 5px 5px #e5e8eb;
+
+}
+
+#puesto h2{
+    position: relative;
+    text-align:center;
+    color: #3C70AE;
+    font-weight: lighter;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-transform:capitalize;
+}
+
+.columna1-item{
+    top: -20px;
+
+}
+
+.columna1-item h2{
+   color:#3C70AE;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+#funciones, #conocimientos, #cualidades {
+    text-align: center;
+}
+
+#datos img{
+    width: 2.5vw;
+    left: 1.7vw;  
+}
+
+#datos {
+    display: grid;
+    grid-template-columns: 0.7fr 2.5fr;
+    margin-top: 1.2vh;
+    align-items: center;
+}
+
+.enlace {
+    text-decoration: none;
+    color:black;
+}
+
+.enlace:hover {
+    border-bottom:#3C70AE solid 1.5px;
+}
+
+#experiencia, #titulos h2{
+    background-color: #e5e8eb;
+    color: #3C70AE;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 3vh;
+}
+
+#programacion, #consultora, #administrativa {
+    line-height: 5vh;
+    margin-left: 2vw;
+}
+
+#programacion h3{
+    color:#3C70AE;
+    font-family: Antonio;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+#programacion h4{
+    color:#3C70AE;
+    font-weight: lighter;
+    position: relative;
+}
+
+#consultora h3{
+    color:#3C70AE;
+    font-family: Antonio;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+#consultora h4{
+    color:#3C70AE;
+    font-weight: lighter;
+    position: relative;
+}
+
+#administrativa h3{
+    color:#3C70AE;
+    font-family: Antonio;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+#administrativa h4{
+    color:#3C70AE;
+    font-weight: lighter;
+    position: relative;
+}
+
+#titulos h2{
+    color: #3C70AE;
+    text-transform: uppercase;
+}
+
+#titulos h3{
+    color:#3C70AE;
+    font-family: Antonio;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
